@@ -1,0 +1,68 @@
+.header {
+	background:  #000;
+}
+li {
+   display: block;
+}
+.menu__item a {
+    margin-top: 10px;
+    font-size:22px;
+    font-weight:700;
+    color: black;
+    display: block;
+}
+
+img {
+
+    width: 220px;
+    height: 220px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+img:hover{
+    opacity: 0.9;
+    width: 240px;
+    height: 240px;
+}
+
+.rotate:hover {
+  transition: all 0.9s ease;
+  transform: rotateZ(-180deg);
+}
+
+.circle:hover {
+  border-radius: 100%;
+   transition: all 0.5s ease;
+}
+
+@keyframes swing {
+  15% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  65% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.swaying:hover {
+  animation: swing 2s ease;
+  animation-iteration-count: 1;
+}
+
+
+
+
+

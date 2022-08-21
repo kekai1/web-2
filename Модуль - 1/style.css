@@ -1,0 +1,55 @@
+
+ul, li {
+    display: block;
+}
+
+.title {
+	padding-top: 100px;  
+	padding-bottom: 70px ;
+}
+
+.logo {
+    margin-top:8px;
+    width: 100px;
+}
+
+.menu {
+    margin-top:8px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size:22px;
+    font-weight:700;
+    color: #000;
+}
+
+.offer{
+	margin-top: 117px;
+}
+
+.info_title {
+    font-size:32px;
+    margin-bottom: 10px;
+}
+
+.info_intro {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.info_text {
+    font-size: 16px;
+    width: 400px;
+}
+
+.nike{
+	margin:60px 0px 60px 0px;
+}
+
+
+
+
